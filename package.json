@@ -1,0 +1,16 @@
+{
+	"name": "moonit-social-web",
+	"version": "2.1.45",
+	"private": true,
+	"devDependencies": {
+		"grunt": "*",
+		"grunt-contrib-uglify": "*",
+		"grunt-contrib-less": "*",
+		"grunt-contrib-cssmin": "*",
+		"grunt-bump": "*",
+		"grunt-string-replace": "*",
+		"grunt-contrib-copy": "*",
+		"grunt-manifest": "*",
+		"time-grunt": "*"
+	}
+}
