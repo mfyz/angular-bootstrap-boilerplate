@@ -1,0 +1,28 @@
+<div class="container">
+	<div class="row">
+		<div class="col-lg-12">
+			<h1 class="title">Homepage</h1>
+			<br/>
+			<a href="#" class="btn btn-success" ng-click="open()" tooltip="Super easy!">Open Modal</a>
+			<br/>
+			<br/>
+			<div ng-if="selected.fruit" class="alert alert-info">{{selected.fruit}}</div>
+		</div>
+	</div>
+</div>
+
+<script type="text/ng-template" id="modal-content.html">
+	<div class="modal-header">
+		<h3 class="modal-title">Select Fruit</h3>
+	</div>
+	<div class="modal-body">
+		<span class="btn-group">
+			<a ng-repeat="item in items" ng-click="selected.item = item"
+			   class="btn {{item == selected.item ? 'btn-primary' : 'btn-default' }}">{{ item }}</a>
+		</span>
+	</div>
+	<div class="modal-footer">
+		<button class="btn btn-success" ng-click="ok()">OK</button>
+		<button class="btn btn-default" ng-click="cancel()">Cancel</button>
+	</div>
+</script>

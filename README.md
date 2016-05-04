@@ -2,8 +2,8 @@
 
 Includes a sample Web App Boilerplate
 
-* Angular (1.3.15) 
-* Twitter Bootstrap (3.3.4) 
-* jQuery (2.1.4)
-* Angular UI Bootstrap (0.13.0)
+* Angular (1.5.5) 
+* Twitter Bootstrap (3.3.6) 
+* jQuery (2.2.3)
+* Angular UI Bootstrap (1.3.2)
 * Angular Local Storage
