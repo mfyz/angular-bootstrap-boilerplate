@@ -7,11 +7,6 @@
     "type": "git",
     "url": "https://mfyz@github.com/mfyz/angular-bootstrap-boilerplate.git"
   },
-  "keywords": [
-    "angular",
-    "bootstrap",
-    "boilerplate"
-  ],
   "author": "Mehmet Fatih YILDIZ",
   "homepage": "https://github.com/mfyz/angular-bootstrap-boilerplate"
 }
