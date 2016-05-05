@@ -13,9 +13,5 @@
     "boilerplate"
   ],
   "author": "Mehmet Fatih YILDIZ",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/mfyz/angular-bootstrap-boilerplate/issues"
-  },
   "homepage": "https://github.com/mfyz/angular-bootstrap-boilerplate"
 }
